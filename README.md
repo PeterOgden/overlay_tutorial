@@ -2,7 +2,7 @@
 
 This repository contains the example files for the overlay tutorial
 documentation and notebook for the PYNQ-Z1 board. To rebuild the bitstreams:
- * Open Vivado 2016.1
+ * Open Vivado 2018.3
  * In the TCL consolde run `cd <<This directory>>`
  * and `source build_all.tcl`
 

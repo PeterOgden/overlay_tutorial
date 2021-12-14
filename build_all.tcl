@@ -1,5 +1,5 @@
 cd ip
-foreach script [glob */script.tcl] { exec vivado_hls -f $script }
+foreach script [glob */script.tcl] { exec vitis_hls -f $script }
 
 cd ../overlays
 source tutorial_1.tcl

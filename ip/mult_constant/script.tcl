@@ -1,8 +1,8 @@
 open_project mult_constant
 set_top mult_constant
 add_files mult_constant/mult_constant.cpp
-open_solution "solution1"
-set_part {xc7z020clg484-1} -tool vivado
+open_solution "solution1" -flow_target vivado
+set_part {xc7z020clg400-1}
 create_clock -period 10 -name default
 #source "./mult_constant/solution1/directives.tcl"
 #csim_design
